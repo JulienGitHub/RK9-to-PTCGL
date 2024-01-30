@@ -1,0 +1,21 @@
+{
+  "name": "RK9 to PTCGL",
+  "action": {},
+  "manifest_version": 3,
+  "version": "0.1",
+  "description": "Generates a PTCGL importable list from a rk9 decklist",
+  "permissions": ["activeTab", "scripting", "webNavigation"],
+  "content_scripts": [
+        {
+            "all_frames": true,
+            "matches": ["https://rk9.gg/decklist/public/*"],
+            "js": ["content.js"]
+        }
+    ],
+"icons": {
+    "16": "icon16.png",
+    "32": "icon32.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  }
+}
