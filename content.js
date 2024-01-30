@@ -11,6 +11,7 @@ for(const li of document.getElementById("lang-EN").getElementsByTagName("li"))
 		set += '-GG';
 		id = parseInt(id.replace('GG', ''), 10);
 	}
+	set = set.replace('SVP', 'PR-SV');
 	decklist += "* "+qty+" "+set+" "+id+"\n";
 }
 
