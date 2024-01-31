@@ -1,7 +1,7 @@
 # RK9-to-PTCGL
 Chrome Extension - Converts RK9 Decklist to PTCGL format
 
-**Extension is published here** : https://chromewebstore.google.com/detail/jbekpdnmlbjcdmlmjpnenjdpbpkljbdo
+__Extension is published here__ : https://chromewebstore.google.com/detail/jbekpdnmlbjcdmlmjpnenjdpbpkljbdo
 
 manifest.json is commented below
 
